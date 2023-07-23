@@ -9,7 +9,7 @@ import Icon from './Icon.jsx';
 const Home = () => {
   return (
     <>
-      <div className='py-9 overflow-hidden'>
+      <div className='sm:py-3 lg:py-9 overflow-hidden '>
       <div className='flex items-center flex-col space-y-3 justify-center text-white h-auto'>
     
       <h1 className='text-[40px] '>I'm</h1>

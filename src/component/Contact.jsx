@@ -33,7 +33,7 @@ const ContactForm = () => {
   return (
     <div className='text-white'>
       
-    <form className="max-w-md mx-auto py-5" onSubmit={handleSubmit}>
+    <form className="max-w-sm mx-auto p-5" onSubmit={handleSubmit}>
         <h1 className='text-center text-[64px]  font-bold'>Contact</h1>
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 font-semibold">

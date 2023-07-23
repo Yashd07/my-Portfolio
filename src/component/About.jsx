@@ -19,23 +19,32 @@ const About = () => {
           </div>
         </div>
 
-        <div className='flex justify-center py-5 text-xl space-x-7'>
+      
+
+        <div className='flex justify-center items-center py-5'>
+        <div className='grid md:grid-cols-2 gap-4 sm:grid-col-1'>
 
           {/* CV Button */}
+          <div>
           <a href='https://drive.google.com/file/d/19mEAUw4wyYOQ0G83wIBjpbXzZa54_NVF/view?usp=sharing'> 
           <div className='flex flex-row justify-center border  rounded-lg p-4 my-5 space-x-3 w-[200px] h-[60px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...'>
             <ImNewspaper className='mt-1'/>
             <h1>Download CV</h1>
           </div>
           </a>
+          </div>
 
           {/* Portfolio Button */}
+          <div>
           <a href='/Portfolio'>
           <div className='flex flex-row border rounded-lg justify-center p-4 my-5 space-x-3 w-[200px] h-[60px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...'>
             <FaUserCircle className='mt-1'/>
             <h1>My Portfolio</h1>
           </div>
           </a>
+          </div>
+          </div>
+
         </div>
         <div className='flex justify-center py-5'>
         <Icon/>

@@ -39,17 +39,17 @@ const projects = [
 const Portfolio = () => {
   return (
     <div className='flex justify-center items-center flex-col text-white py-5' >
-      <h1 className='text-[64px] font-bold '>My Portfolio</h1>
+      <h1 className='text-[64px] font-bold text-center'>My Portfolio</h1>
       <div className='py-4 flex  items-center flex-col space-y-4'>
       <h2 className='text-xl text-center'>Unleashing my boundless creativity through digital enchantments.</h2>
-      <ul className='grid grid-cols-2 gap-7'>
+      <ul className='grid md:grid-cols-2 gap-7 sm:grid-col-1'>
         {skills.map((skill, index) => (
            <SkillItem key={index} skill={skill.skill} icon={skill.icon} description={skill.description} />
         ))}
       </ul>
       </div>
       <h2 className='text-xl text-center py-4'>Crafting Web magic through Projects</h2>
-      <div className='grid grid-cols-2 gap-7'>
+      <div className='grid md:grid-cols-2 gap-7 sm:grid-col-1'>
         {projects.map((project, index) => (
           <ProjectItem key={index} project={project} />
         ))}

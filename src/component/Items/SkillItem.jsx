@@ -10,7 +10,7 @@ const SkillItem = ({ skill, icon, description }) => {
       <IconComponent className='m-3 text-6xl'/>
       <h1 className='text-xl'>{skill}</h1>
       </div>
-      <p className='px-4 text-center'>{description}</p>
+      <p className='px-4 pb-4 text-center'>{description}</p>
 
     </li>
     
