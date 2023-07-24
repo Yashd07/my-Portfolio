@@ -31,10 +31,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='text-white'>
+   
       
-    <form className="max-w-sm mx-auto p-5" onSubmit={handleSubmit}>
-        <h1 className='text-center text-[64px]  font-bold'>Contact</h1>
+    <form className="max-w-sm mx-auto text-blue-light-1 p-5" onSubmit={handleSubmit}>
+        <h1 className='text-center text-blue-dark text-[64px]  font-bold'>Contact</h1>
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 font-semibold">
           Name
@@ -76,12 +76,12 @@ const ContactForm = () => {
       </div>
       <button
         type="submit"
-        className="w-full px-4 py-2 font-semibold text-white border rounded-lg hover:bg-white hover:text-black focus:outline-none"
+        className="w-full px-4 py-2 font-semibold text-white border rounded-lg hover:bg-blue-dark hover:text-white hover:translate-y-1 hover:scale-110 hover: duration-300 ... "
       >
      Send Message
       </button>
     </form>
-    </div>
+    
   );
 };
 

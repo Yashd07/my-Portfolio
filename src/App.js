@@ -7,7 +7,7 @@ import {Route, useLocation, Routes } from 'react-router-dom';
 function App() {
   const location = useLocation();
   return (
-    <div className='overflow-hidden bg-gradient-to-r from-gray-700 via-gray-900 to-black' >
+    <div className='overflow-hidden bg-custom' >
       <Nav/>
       <div key={location.pathname}>
         <Routes>

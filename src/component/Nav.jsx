@@ -7,7 +7,7 @@ function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (
-    <div className="flex items-center justify-between text-white py-3">
+    <div className="flex items-center justify-between text-blue-light-1 py-3">
       <a href="/">
         <img src={Logo} className="h-8 mr-3 invert"  alt="logo" />
       </a>
@@ -41,7 +41,7 @@ function Nav() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] text-white text-3xl">
+            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] text-3xl">
               <li className="my-8 uppercase hover:scale-110 hover:duration-300 ...">
                 <a href="/">Home</a>
               </li>
